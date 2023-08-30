@@ -1,0 +1,30 @@
+.jumbotron {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/003/805/189/non_2x/paper-art-online-shopping-on-smart-phone-buy-sell-on-mobile-technology-marketing-illustration-for-cover-page-design-on-website-free-vector.jpg');
+  background-size:cover;
+  color: black;
+  padding: 100px 0;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;
+  background-color: rgba(57, 59, 69, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+}

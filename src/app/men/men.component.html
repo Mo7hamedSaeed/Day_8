@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-lg-3 mb-4" *ngFor="let p of menProduct" style="width: 100; height: 100;">
+    <div class="card" style="width: 18rem;">
+        <img src={{p.image}} class="card"  alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{p.title}}</h5>
+            <p class="card-text">{{p.description}}</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a class="btn btn-s" style="background-color: cornflowerblue; margin-left: 50px;">{{p.price}} $</a>
+              <a [routerLink] = "['/menproducts',p.id]" class="btn btn-primary" style="margin-right: 50px">VIEW</a>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
